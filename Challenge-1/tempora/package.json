@@ -1,0 +1,39 @@
+{
+  "name": "tempora-clock-sync",
+  "version": "1.0.0",
+  "description": "A clock synchronization system for the mechanical town of Tempora",
+  "main": "console-app.js",
+  "scripts": {
+    "start": "node console-app.js",
+    "test": "node tests/simple.test.js",
+    "test:watch": "nodemon tests/simple.test.js",
+    "dev": "node console-app.js",
+    "lint": "echo 'No linter configured yet'",
+    "demo": "node examples/demo.js",
+    "web": "node server.js",
+    "serve": "node server.js",
+    "web:dev": "nodemon server.js"
+  },
+  "keywords": [
+    "clock",
+    "synchronization",
+    "time",
+    "tempora",
+    "nodejs",
+    "mechanical"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/tempora-clock-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/example/tempora-clock-sync/issues"
+  },
+  "homepage": "https://github.com/example/tempora-clock-sync#readme"
+}
